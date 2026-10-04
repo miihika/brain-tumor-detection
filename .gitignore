@@ -1,0 +1,7 @@
+# dataset copies and cached features are large and re-creatable from notebook 01
+data/
+*.npz
+*.keras
+*.h5
+__pycache__/
+.ipynb_checkpoints/

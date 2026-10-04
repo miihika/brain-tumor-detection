@@ -1,0 +1,12 @@
+# Keras 3 runs on TensorFlow, PyTorch or JAX. Our interim runs used the PyTorch backend on CPU.
+keras>=3.0
+torch>=2.2            # backend used for our runs (or install tensorflow and set KERAS_BACKEND=tensorflow)
+scipy                 # needed by ImageDataGenerator augmentation
+h5py
+numpy
+pandas
+scikit-learn
+matplotlib
+pillow
+kagglehub             # dataset download
+jupyter
