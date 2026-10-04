@@ -1,0 +1,22 @@
+{
+  "raw_files": 7200,
+  "unreadable_files": 0,
+  "duplicate_groups": 153,
+  "files_removed": 187,
+  "groups_crossing_train_test": 0,
+  "groups_with_label_conflict": 0,
+  "images_used": 7013,
+  "split_counts": {
+    "train": 4343,
+    "test": 1584,
+    "val": 1086
+  },
+  "class_counts": {
+    "tumor": 5332,
+    "no_tumor": 1681
+  },
+  "class_weights": {
+    "no_tumor": 2.1185,
+    "tumor": 0.6545
+  }
+}
