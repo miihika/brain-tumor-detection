@@ -1,0 +1,4 @@
+split,no_tumor,tumor,total,tumor_share_%
+train,1025,3318,4343,76.4
+val,256,830,1086,76.4
+test,400,1184,1584,74.7
