@@ -106,5 +106,3 @@ data/           (not committed) merged image folders and cached features
 - Model design follows the comparison in S. Ganesh and A. Anoop, "Brain tumor detection using
   convolution neural networks," CSE-3175 report, MIT Manipal, 2025. No code was copied from it.
 - VGG16: Simonyan & Zisserman, ICLR 2015. ResNet50: He et al., CVPR 2016. Pretrained weights from `keras.applications`.
-- AI assistance was used to help write and debug this code and run the preliminary experiments;
-  details are declared in the interim report, as the course guidelines require.
