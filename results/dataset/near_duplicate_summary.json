@@ -1,0 +1,28 @@
+{
+  "phash_candidate_pairs_le8bits": 33350,
+  "confirmed_pairs_corr_ge_0.97": 13682,
+  "groups": 3844,
+  "images_with_a_near_duplicate": 5145,
+  "largest_group": 78,
+  "original_split_cross_pairs": 7756,
+  "original_test_images_with_near_dup_in_train_or_val": 1087,
+  "original_val_images_with_near_dup_in_train": 565,
+  "final_split_counts": {
+    "test": {
+      "no_tumor": 389,
+      "tumor": 1231
+    },
+    "train": {
+      "no_tumor": 1034,
+      "tumor": 3279
+    },
+    "val": {
+      "no_tumor": 258,
+      "tumor": 822
+    }
+  },
+  "final_class_weights": {
+    "no_tumor": 2.0856,
+    "tumor": 0.6577
+  }
+}
