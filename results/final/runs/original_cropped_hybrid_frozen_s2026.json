@@ -1,0 +1,107 @@
+{
+  "model": "hybrid",
+  "variant": "frozen",
+  "protocol": "original_cropped",
+  "seed": 2026,
+  "config": {
+    "lr": 0.001,
+    "units": 128,
+    "dropout": 0.5
+  },
+  "epochs_run": 10,
+  "best_epoch": 5,
+  "train_seconds": 18.7,
+  "trainable_params": 328066,
+  "history": {
+    "accuracy": [
+      0.9367,
+      0.9701,
+      0.9721,
+      0.98,
+      0.9853,
+      0.9848,
+      0.9848,
+      0.9903,
+      0.9919,
+      0.9906
+    ],
+    "loss": [
+      0.2562,
+      0.0854,
+      0.0753,
+      0.0587,
+      0.0372,
+      0.041,
+      0.0401,
+      0.0233,
+      0.025,
+      0.0259
+    ],
+    "val_accuracy": [
+      0.9742,
+      0.9751,
+      0.9797,
+      0.9853,
+      0.9862,
+      0.9825,
+      0.9843,
+      0.9834,
+      0.9871,
+      0.9862
+    ],
+    "val_loss": [
+      0.082,
+      0.0896,
+      0.0588,
+      0.0528,
+      0.0449,
+      0.0577,
+      0.0544,
+      0.0555,
+      0.045,
+      0.0657
+    ]
+  },
+  "val_metrics": {
+    "accuracy": 0.9862,
+    "precision": 0.9939,
+    "recall": 0.988,
+    "specificity": 0.9805,
+    "f1": 0.9909,
+    "macro_f1": 0.981,
+    "balanced_accuracy": 0.9842,
+    "roc_auc": 0.9985,
+    "confusion_matrix": [
+      [
+        251,
+        5
+      ],
+      [
+        10,
+        820
+      ]
+    ],
+    "n": 1086
+  },
+  "test_metrics": {
+    "accuracy": 0.9741,
+    "precision": 1.0,
+    "recall": 0.9654,
+    "specificity": 1.0,
+    "f1": 0.9824,
+    "macro_f1": 0.9668,
+    "balanced_accuracy": 0.9827,
+    "roc_auc": 0.9989,
+    "confusion_matrix": [
+      [
+        400,
+        0
+      ],
+      [
+        41,
+        1143
+      ]
+    ],
+    "n": 1584
+  }
+}

@@ -1,0 +1,9 @@
+"model (seed 42, frozen)",test subset,tumour images,missed,tumour recall %,no-tumour images
+MLP baseline,has near-duplicate in train/val,697,44,93.69,390
+MLP baseline,no near-duplicate,487,43,91.17,10
+VGG16,has near-duplicate in train/val,697,12,98.28,390
+VGG16,no near-duplicate,487,25,94.87,10
+ResNet50,has near-duplicate in train/val,697,19,97.27,390
+ResNet50,no near-duplicate,487,23,95.28,10
+Hybrid VGG16–ResNet50,has near-duplicate in train/val,697,29,95.84,390
+Hybrid VGG16–ResNet50,no near-duplicate,487,27,94.46,10

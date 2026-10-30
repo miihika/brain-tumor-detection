@@ -1,0 +1,17 @@
+{
+  "vgg16": {
+    "lr": 0.0003,
+    "units": 256,
+    "dropout": 0.3
+  },
+  "resnet50": {
+    "lr": 0.001,
+    "units": 128,
+    "dropout": 0.5
+  },
+  "hybrid": {
+    "lr": 0.001,
+    "units": 128,
+    "dropout": 0.5
+  }
+}

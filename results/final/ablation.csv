@@ -1,0 +1,13 @@
+protocol,model,val accuracy,test accuracy,test balanced acc,test specificity,test ROC-AUC,seeds
+"P0 original split, uncropped (interim)",MLP baseline,96.96 ± 0.40,93.12 ± 1.33,94.35 ± 1.28,96.83 ± 1.38,0.976 ± 0.004,3
+"P0 original split, uncropped (interim)",VGG16,98.84 ± 0.11,97.31 ± 0.57,98.20 ± 0.38,100.00 ± 0.00,0.996 ± 0.000,3
+"P0 original split, uncropped (interim)",ResNet50,98.68 ± 0.27,97.50 ± 0.85,98.27 ± 0.60,99.83 ± 0.14,0.999 ± 0.000,3
+"P0 original split, uncropped (interim)",Hybrid VGG16–ResNet50,98.90 ± 0.33,97.33 ± 0.93,98.16 ± 0.64,99.83 ± 0.14,0.998 ± 0.001,3
+"P1 original split, cropped",MLP baseline,96.90 ± 0.23,94.07 ± 0.55,95.29 ± 0.52,97.75 ± 1.00,0.979 ± 0.002,3
+"P1 original split, cropped",VGG16,98.59 ± 0.05,98.07 ± 0.40,98.68 ± 0.32,99.92 ± 0.14,0.997 ± 0.000,3
+"P1 original split, cropped",ResNet50,98.65 ± 0.19,97.48 ± 0.40,98.23 ± 0.38,99.75 ± 0.43,0.999 ± 0.001,3
+"P1 original split, cropped",Hybrid VGG16–ResNet50,98.44 ± 0.32,97.35 ± 1.11,98.04 ± 0.81,99.42 ± 0.52,0.998 ± 0.001,3
+"P2 leak-free split, cropped (final)",MLP baseline,92.04 ± 1.00,94.10 ± 1.21,92.42 ± 3.00,89.20 ± 6.56,0.969 ± 0.022,3
+"P2 leak-free split, cropped (final)",VGG16,96.61 ± 1.02,96.79 ± 0.27,96.19 ± 0.51,95.03 ± 0.97,0.994 ± 0.002,3
+"P2 leak-free split, cropped (final)",ResNet50,98.21 ± 0.05,97.90 ± 0.25,97.00 ± 0.35,95.29 ± 0.83,0.997 ± 0.000,3
+"P2 leak-free split, cropped (final)",Hybrid VGG16–ResNet50,98.00 ± 0.19,97.88 ± 0.22,97.58 ± 0.24,97.00 ± 0.90,0.998 ± 0.000,3

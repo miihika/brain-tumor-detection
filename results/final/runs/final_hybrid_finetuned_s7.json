@@ -1,0 +1,94 @@
+{
+  "model": "hybrid",
+  "variant": "finetuned",
+  "protocol": "final",
+  "seed": 7,
+  "config": {
+    "lr": 0.001,
+    "units": 128,
+    "dropout": 0.5,
+    "ft_lr": 1e-05,
+    "ft_max_epochs": 12,
+    "ft_patience": 3,
+    "unfrozen": {
+      "vgg16": "block5 (3 conv)",
+      "resnet50": "conv5 stage (3 blocks, BN frozen)"
+    }
+  },
+  "epochs_run": 5,
+  "best_epoch": 2,
+  "train_seconds": 2034.4,
+  "trainable_params": 22360962,
+  "history": {
+    "accuracy": [
+      0.9882,
+      0.9935,
+      0.9914,
+      0.9984,
+      0.9991
+    ],
+    "loss": [
+      0.0364,
+      0.0216,
+      0.0201,
+      0.0066,
+      0.0036
+    ],
+    "val_accuracy": [
+      0.9546,
+      0.9889,
+      0.9889,
+      0.9843,
+      0.9806
+    ],
+    "val_loss": [
+      0.1347,
+      0.0424,
+      0.0583,
+      0.0622,
+      0.077
+    ]
+  },
+  "val_metrics": {
+    "accuracy": 0.9889,
+    "precision": 0.9915,
+    "recall": 0.9939,
+    "specificity": 0.9729,
+    "f1": 0.9927,
+    "macro_f1": 0.9847,
+    "balanced_accuracy": 0.9834,
+    "roc_auc": 0.9988,
+    "confusion_matrix": [
+      [
+        251,
+        7
+      ],
+      [
+        5,
+        817
+      ]
+    ],
+    "n": 1080
+  },
+  "test_metrics": {
+    "accuracy": 0.9809,
+    "precision": 0.9878,
+    "recall": 0.987,
+    "specificity": 0.9614,
+    "f1": 0.9874,
+    "macro_f1": 0.9738,
+    "balanced_accuracy": 0.9742,
+    "roc_auc": 0.9981,
+    "confusion_matrix": [
+      [
+        374,
+        15
+      ],
+      [
+        16,
+        1215
+      ]
+    ],
+    "n": 1620
+  }
+}

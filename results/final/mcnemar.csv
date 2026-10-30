@@ -1,0 +1,7 @@
+,A,B,"A right, B wrong","A wrong, B right",p-value (exact)
+0,MLP baseline,VGG16,29,64,0.0004
+1,MLP baseline,ResNet50,8,70,0.0
+2,MLP baseline,Hybrid VGG16–ResNet50,19,68,0.0
+3,VGG16,ResNet50,8,35,0.0
+4,VGG16,Hybrid VGG16–ResNet50,13,27,0.0385
+5,ResNet50,Hybrid VGG16–ResNet50,18,5,0.0106

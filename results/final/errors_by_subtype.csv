@@ -1,0 +1,5 @@
+,glioma missed,meningioma missed,pituitary missed,no-tumor false alarms,"bootstrap 95% CI, balanced acc."
+MLP baseline,22 / 412,43 / 411,0 / 408,23 / 389,"[0.930, 0.957]"
+VGG16,10 / 412,26 / 411,5 / 408,12 / 389,"[0.958, 0.978]"
+ResNet50,2 / 412,11 / 411,1 / 408,12 / 389,"[0.970, 0.987]"
+Hybrid VGG16–ResNet50,6 / 412,18 / 411,5 / 408,10 / 389,"[0.966, 0.984]"

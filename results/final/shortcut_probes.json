@@ -1,0 +1,128 @@
+{
+  "size rule \u00b7 original_uncropped": {
+    "accuracy": 0.8794,
+    "precision": 0.997,
+    "recall": 0.8412,
+    "specificity": 0.9925,
+    "f1": 0.9125,
+    "macro_f1": 0.8593,
+    "balanced_accuracy": 0.9169,
+    "roc_auc": 0.9169,
+    "confusion_matrix": [
+      [
+        397,
+        3
+      ],
+      [
+        188,
+        996
+      ]
+    ],
+    "n": 1584
+  },
+  "histogram probe \u00b7 original_uncropped": {
+    "accuracy": 0.8504,
+    "precision": 0.9143,
+    "recall": 0.8826,
+    "specificity": 0.755,
+    "f1": 0.8982,
+    "macro_f1": 0.8082,
+    "balanced_accuracy": 0.8188,
+    "roc_auc": 0.8925,
+    "confusion_matrix": [
+      [
+        302,
+        98
+      ],
+      [
+        139,
+        1045
+      ]
+    ],
+    "n": 1584
+  },
+  "size rule \u00b7 original_cropped": {
+    "accuracy": 0.8794,
+    "precision": 0.997,
+    "recall": 0.8412,
+    "specificity": 0.9925,
+    "f1": 0.9125,
+    "macro_f1": 0.8593,
+    "balanced_accuracy": 0.9169,
+    "roc_auc": 0.9169,
+    "confusion_matrix": [
+      [
+        397,
+        3
+      ],
+      [
+        188,
+        996
+      ]
+    ],
+    "n": 1584
+  },
+  "histogram probe \u00b7 original_cropped": {
+    "accuracy": 0.8554,
+    "precision": 0.9313,
+    "recall": 0.8708,
+    "specificity": 0.81,
+    "f1": 0.9,
+    "macro_f1": 0.8195,
+    "balanced_accuracy": 0.8404,
+    "roc_auc": 0.9123,
+    "confusion_matrix": [
+      [
+        324,
+        76
+      ],
+      [
+        153,
+        1031
+      ]
+    ],
+    "n": 1584
+  },
+  "size rule \u00b7 final": {
+    "accuracy": 0.9475,
+    "precision": 1.0,
+    "recall": 0.931,
+    "specificity": 1.0,
+    "f1": 0.9642,
+    "macro_f1": 0.9329,
+    "balanced_accuracy": 0.9655,
+    "roc_auc": 0.9655,
+    "confusion_matrix": [
+      [
+        389,
+        0
+      ],
+      [
+        85,
+        1146
+      ]
+    ],
+    "n": 1620
+  },
+  "histogram probe \u00b7 final": {
+    "accuracy": 0.8685,
+    "precision": 0.9152,
+    "recall": 0.9115,
+    "specificity": 0.7326,
+    "f1": 0.9133,
+    "macro_f1": 0.8206,
+    "balanced_accuracy": 0.8221,
+    "roc_auc": 0.8877,
+    "confusion_matrix": [
+      [
+        285,
+        104
+      ],
+      [
+        109,
+        1122
+      ]
+    ],
+    "n": 1620
+  }
+}
