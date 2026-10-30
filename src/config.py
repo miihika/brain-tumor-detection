@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"                  # not committed to git (see .gitignore)
 BINARY_DIR = DATA_DIR / "binary"          # merged folders: {train,val,test}/{no_tumor,tumor}
 FEATURE_DIR = DATA_DIR / "features"       # cached CNN features (.npz)
+CROPPED_DIR = DATA_DIR / "cropped"        # final phase: brain-cropped, 256x256 PNG copies of data/binary
 RESULTS_DIR = ROOT / "results"
 FIG_DIR = RESULTS_DIR / "figures"
 METRIC_DIR = RESULTS_DIR / "metrics"

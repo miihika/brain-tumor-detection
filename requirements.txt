@@ -9,4 +9,6 @@ scikit-learn
 matplotlib
 pillow
 kagglehub             # dataset download
+opencv-python         # brain-region cropping
+imagehash             # perceptual hashing for the near-duplicate check
 jupyter
